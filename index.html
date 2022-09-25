@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/5a55dad35d.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <title>Calculadora IMC</title>
+</head>
+
+<body>
+    <div class="div-bloco">
+        <h1>CALCULADORA IMC </h1>
+        <div class="div-i">
+            <div class="divs-inputs">
+                <label for="nome">Nome : </label>
+                <input type="text" placeholder="Digite seu nome" id="nome">
+            </div>
+            <div class="divs-inputs">
+                <label for="peso">Peso: </label>
+                <input type="text" placeholder="Digite seu peso" id="peso">
+            </div>
+            <div class="divs-inputs">
+                <label for="altura">Altura: </label>
+                <input type="text" placeholder="Digite sua altura" id="altura" id="altura">
+            </div>
+            <div class="divs-inputs">
+                <button onclick="imc()" class="btn">Calcular</button>
+            </div>
+        </div>
+        <div class="bloco-texto">
+            <p id="resposta">
+                
+            </p>
+        </div>
+        <div class="centro">
+            <div class="form-social">
+                <a href="https://www.ifpk.com.br/" class="social-icon" target="_blank" title="Instituto Flexpeak - IFPK">
+                    <i class="fa-solid fa-f"></i>
+                </a>
+    
+                <a href="https://github.com/saraego" class="social-icon" target="_blank" title="GitHub">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+    
+                <a href="https://www.linkedin.com/in/saraego-f%C3%A9lix-barros-54b55b221/" target="_blank" class="social-icon" title="linkedin">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </div>
+        </div>
+        
+    </div>
+</body>
+    <script src="./app.js"></script>
+</html>
