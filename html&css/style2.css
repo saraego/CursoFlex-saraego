@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+header{
+    margin-top: 10px;
+   display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+header .navbar-nav .nav-item .nav-link{
+    color: black;
+    margin-right: 50px;
+}
+header .navbar-nav .nav-item .btn {
+    background-color:;
+}
